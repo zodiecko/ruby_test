@@ -1,4 +1,5 @@
-require "ruby_lsp/"
+# frozen_string_literal: true
+
 hours_per_year = 24 * 365
 puts "One year has #{hours_per_year} hours"
 
@@ -9,6 +10,6 @@ age = 29
 age_in_seconds = age * 365 * 24 * 60 * 60
 puts "Your age in second is #{age_in_seconds}"
 
-age_in_seconds =1232000000
+age_in_seconds = 1_232_000_000
 age = age_in_seconds / (60 * 60 * 24 * 365)
-puts "Your age is # {age } "
+puts "Your age is #{age}"
